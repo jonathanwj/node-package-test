@@ -1,4 +1,5 @@
 # node-package-test
 
-1. npm install in all 3 projects
-2. my-ts-lib run `npm run build`
+1. my-parcel-lib `npm install`
+1. my-parcel-lib `npm run build`
+1. npm install in other 2 projects

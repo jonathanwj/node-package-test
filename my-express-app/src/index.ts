@@ -1,16 +1,12 @@
 import express from "express";
-import { myUUID, something } from "my-ts-lib";
+import { add } from "my-parcel-lib";
 
 const app = express();
 
 app.use(express.json());
 
-app.get("/uuid", async (req, res) => {
-  res.json(myUUID());
-});
-
 app.get("/", async (req, res) => {
-  res.json(something());
+  res.json(add(2, 2));
 });
 
 const server = app.listen(3001, () =>
