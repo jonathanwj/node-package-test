@@ -1,5 +1,5 @@
 import express from "express";
-import { add } from "my-parcel-lib";
+import { add } from "my-microbundle-lib";
 
 const app = express();
 

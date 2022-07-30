@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { add } from "my-parcel-lib";
+import { add } from "my-microbundle-lib";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>{add(4, 4)}</p>
+        <p>{add(2,4)}</p>
         <a
           className="App-link"
           href="https://reactjs.org"

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.module.js","sources":["../src/index.ts"],"sourcesContent":["export const add = (a: number, b: number) => {\n    return a + b;\n  };\n  "],"names":["add","a","b"],"mappings":"AAAaA,IAAAA,EAAM,SAACC,EAAWC,GAC3B,OAAQD,EAAGC,CACZ"}

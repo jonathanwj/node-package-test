@@ -1,0 +1,1 @@
+{"version":3,"file":"index.modern.js","sources":["../src/index.ts"],"sourcesContent":["export const add = (a: number, b: number) => {\n    return a + b;\n  };\n  "],"names":["add","a","b"],"mappings":"AAAaA,MAAAA,EAAM,CAACC,EAAWC,IACnBD,EAAGC"}
